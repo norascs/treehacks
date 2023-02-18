@@ -1,0 +1,39 @@
+<link rel="stylesheet" type="text/css" href="styles.css" />
+<script src="script.js"></script>
+<script src="script.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+<head>
+<div class = "h1">
+<h1> Pocari Sweat</h1></div>
+
+<button onclick="confettiDogs()">Launch Pocari Sweat!</button>
+<div class ="reset">
+<button onclick="resetPage()">Reset Page</button>
+</div>
+
+
+<script>
+function confettiDogs() {
+  let dogImgs = ['image.png', 'image.png', 'image.png', 'image.png', 'image.png'];
+  let I;
+  for (i = 0; i < dogImgs.length; i++) {
+    let dogImg = document.createElement("img");
+    dogImg.src = dogImgs[i];
+    dogImg.style.position = 'absolute';
+    dogImg.style.left = Math.random() * window.innerWidth + 'px';
+    dogImg.style.top = Math.random() * window.innerHeight + 'px';
+    document.body.appendChild(dogImg);
+  }
+}
+
+function resetPage() {
+  let images = document.querySelectorAll('img');
+  for (let i = 0; i < images.length; i++) {
+    images[i].remove();
+  }
+}
+</script>
+</head>
+</html>
