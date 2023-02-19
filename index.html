@@ -1,39 +1,65 @@
-<link rel="stylesheet" type="text/css" href="styles.css" />
-<script src="script.js"></script>
-<script src="script.js"></script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
-<head>
-<div class = "h1">
-<h1> Pocari Sweat</h1></div>
 
-<button onclick="confettiDogs()">Launch Pocari Sweat!</button>
-<div class ="reset">
-<button onclick="resetPage()">Reset Page</button>
-</div>
+<div>
+    <div class="level-one-box">
+      <h1>Level One Family</h1>
+      <button onclick="quizOne()">Unlock Quiz</button>
+    </div>
+    <div class="level-two-box" style="display:none;">
+      <h1>Level Two Food</h1>
+      <button onclick="quizTwo()">Unlock Quiz</button>
+    </div>
+    <div class="level-three-box" style="display:none;">
+        <h1>Level Three </h1>
+        <button onclick="quizThree()">Unlock Quiz</button>
+      </div>
 
-
-<script>
-function confettiDogs() {
-  let dogImgs = ['img/image.png', 'img/image.png', 'img/image.png', 'img/image.png', 'img/image.png'];
-  let I;
-  for (i = 0; i < dogImgs.length; i++) {
-    let dogImg = document.createElement("img");
-    dogImg.src = dogImgs[i];
-    dogImg.style.position = 'absolute';
-    dogImg.style.left = Math.random() * window.innerWidth + 'px';
-    dogImg.style.top = Math.random() * window.innerHeight + 'px';
-    document.body.appendChild(dogImg);
+  </div>
+  <style>
+  .level-one-box {
+    border: 1px solid black;
+    padding: 15px;
+    background-color: #ccc;
   }
-}
-
-function resetPage() {
-  let images = document.querySelectorAll('img');
-  for (let i = 0; i < images.length; i++) {
-    images[i].remove();
+  
+  .level-two-box {
+    border: 1px solid black;
+    padding: 15px;
+    background-color: #ccc;
   }
-}
-</script>
-</head>
-</html>
+  .level-three-box {
+    border: 1px solid black;
+    padding: 15px;
+    background-color: #ccc;
+  }
+  </style>
+  <script>
+function quizOne() {
+    let answerOne = prompt("What is 5 + 5?");
+    if (answerOne == 10) {
+      alert("Correct!");
+      document.querySelector(".level-two-box").style.display = "block";
+    } 
+    else {
+      alert("Incorrect. Try again.");
+    }
+  }
+  function quizTwo() {
+    let answerTwo = prompt("What is 10 + 5?");
+    if (answerTwo == 15) {
+      alert("Correct!");
+      document.querySelector(".level-three-box").style.display = "block";
+      quizThree();
+  }
+  else {
+      alert("Incorrect. Try again.");
+    }
+  }
+    function quizThree() {
+        let answerThree = prompt("What is 15 + 5?");
+        if (answerThree == 30) {
+        alert("Correct!");
+        } else {
+        alert("Incorrect. Try again.");
+        }
+    }
+  </script>
