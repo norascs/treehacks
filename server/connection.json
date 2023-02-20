@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "lingulink",
+  "private_key_id": "7fae0941b7f482c2f67b9077b6767e7ab70fd933",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC0l7ttRX56lQEA\nkSeIQwE1Pzi4fSBWSvCb6WTat52en5qAuaUcaynp2Ve8Khnkwe+UbuIvpnb/AkKV\nQ68Y4bUeilYJ2a/+pSEe0IGyTABJDIK/k2JN/Fm7Z/ePeIAc+PJ2LFNrAYtGsGlT\nAn0NJtOogP2SiQGZ2AZfpP3mBNk4Wl3SFy/clllwgp67M8nrzxCqqQG2tmsz5jve\n/zdF/vh+3MHvrhvZojM2hDbRJN+NdQ53CQrP1tlFLeq7GJ63U9xKf9JmAHTqgNy6\nn4IsYCVWYGZrcj2pq4rFnaMjYYv7l/rqyH4l4Yf0scs2zsZJV0cMVs2n8gdi3sCh\nghXqjyqHAgMBAAECggEARqaBrbsdQwmeDcG7zIQiKdmk8BALoZbJ0MUbLrHc2Ryp\njiiSnq6SBCmCOFvkK2lvuAs1M90U+qjAsbJ8AujyOZN3G31ta9rgPTTnOIChL/LU\nB+y57baGyFlhMWC8BhmiiXbH37oH6czEN7RmhcmlzmtASJ6O4MfxnmNm7SECdhfD\n+k1GbsvEU3aitnUJ7QQukmYfp7QGFLxcvG87Uqic6RU5UBsmktGeo6kP3jt0883b\nF8Gr1mOwCusFoOorqtA3iqXOgSlcmpFi527iI/PlsJYZ/KHwfUPvcXM72hdHecOy\nbNGrNgDiVL7b6gQFVdm4Du8Pq+FrOoULVIqd7BeoCQKBgQDe2/6sRPpAOps2Gkob\nDaV7BlyywN8eiArtwOlhRlvUGH0vYosu8mr1kWcv5yJvuGEqDHcSebFJDkpt0OJe\n5XaVXFyxu5DZwSOcNGTbiNqBI/m2kyp7vPRa73Ygs+DOPoKIAtkjYuyOrOZobExh\niCURMA8+Tc4Yg9j9CjQzdBDD0wKBgQDPcrGDe0+VdX9YcTpbOYWtqM3j9w1owswa\nhKY9BdGJK18y9rDkb7dFa5qe0dpi0c3603Z3TW9L88zY01Qq+0/4AwWcbXNAvXLi\nZkenx1ZMDmsDus5SQLQQhTiKYVVKrGhPi3HnxR9n4Cuh90/On+qSCJSyR4w7rL8S\nvp1oqUzx/QKBgQCkf/DJShUKiff9hIRE2drXJ4gPLgzDpZmji2z5L40iznzBGFUy\nbyACabSoCE1D9+5IsnDGA2uYSGMqEjC16VyRvV5ylsfB5C2b5JS585eOEXcGjDSk\np4IbCXzBgOUkd8G0EZ4j36ZLXlaop5/tsifiOv5Vd+rz74agqQKFJFwnnwKBgF3K\n7oWS+C2MHVKghxD91fnpa4WZir+F64BF31+RxOYu7PD+5oWyGPvTJeqO2R163JV+\njH5uTVba2RBjpBd23vY0b5IFTmnD/jBsrBMoplTm4+2gxW4dAQzDHwg577U+dD8a\nvhpbXtK5YSDuz2+NkCIMrSZaAQZuGUnhUwwiF78FAoGAHd5micUjn/eTrtx2UQQe\ngZHc/rjvIDcS6yLf2DWGXmo5t0c5Pv9uOxXETaEb1YdD6IaCuTWfpskDoTOVIzc/\nqELSCrHxKUAFCTIm2kOgBliCaiG2IZfuWsKU+B+R28ddLw2JeBp/eye6hOJgAV0p\nLn/LrqrtPNS6jKUC8CaOfts=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-iyrv0@lingulink.iam.gserviceaccount.com",
+  "client_id": "100285485490674932033",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-iyrv0%40lingulink.iam.gserviceaccount.com"
+}
